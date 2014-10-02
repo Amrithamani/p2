@@ -1,0 +1,30 @@
+.container {
+			text-align:center;
+		}
+		
+		.password {
+			text-align:center;
+			font-size:3rem;
+			margin-bottom:25px;
+			color:#C71585;
+			font-family:consolas,courier;
+			background-color:#eee;
+			display:inline-block;
+			padding:15px;
+			font-weight:800;
+		}
+		
+		.details {
+			margin-top:25px;
+			color:#DC143C;
+		}
+		
+		.comic {
+			width:75%;
+			max-width:500px;
+		}
+		
+		h1{
+			color:#778899;
+		}
+		
