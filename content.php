@@ -4,23 +4,19 @@
 	
 	<p class='password'>Your password is: <?php echo ($password) ? $password : ''; ?></p>
 	
-	<p class='options'>
-	
 	<form method="POST" action="./index.php">
 	
 	<label for="count">Number of words</label>
 	<input type="text" id ="count" name="count"/><br />
 	
-	<label form="uppercase">Uppercase first letter?</label>
-	<input type="checkbox" name="uppercase" value="checkbox" <?php echo ($uppercase) ? 'checked="checked"': '' ; ?> /><br />
+	<label for="uppercase">Uppercase first letter?</label>
+	<input type="checkbox" name="uppercase" id="uppercase" value="checkbox" <?php echo ($uppercase) ? 'checked="checked"': '' ; ?> /><br />
 	
-	<label form="symbol">Add a symbol</label>
-	<input type="checkbox" name="symbol" value="checkbox" <?php echo ($symbol) ? 'checked="checked"': '' ; ?> /><br />
+	<label for="symbol">Add a symbol</label>
+	<input type="checkbox" name="symbol" id="symbol" value="checkbox" <?php echo ($symbol) ? 'checked="checked"': '' ; ?> /><br />
 
-	<label form="number">Add a number</label>
-	<input type="checkbox" name="number" value="checkbox" <?php echo ($number) ? 'checked="checked"': '' ; ?> /><br />	
-	
-	</p>
+	<label for="number">Add a number</label>
+	<input type="checkbox" name="number" id="number" value="checkbox" <?php echo ($number) ? 'checked="checked"': '' ; ?> /><br />	
 	
 	<input type="submit" class='btn btn-default' value="Generate password" />
 	</form>
@@ -33,5 +29,4 @@
 			</a>
 			<br>
 	</p>
-</div>
-
+</div>   
