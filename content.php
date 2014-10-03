@@ -2,7 +2,6 @@
 	
 	<h1>xkcd Password Generator</h1>
 	
-	
 	<p class='password'>Your password is: <?php echo ($password) ? $password : ''; ?></p>
 	
 	<p class='options'>
@@ -33,5 +32,6 @@
 				<img class='comic' src='http://imgs.xkcd.com/comics/password_strength.png' alt='xkcd style passwords'>
 			</a>
 			<br>
-	    <p />
+	</p>
 </div>
+
