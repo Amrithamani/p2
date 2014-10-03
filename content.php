@@ -11,16 +11,16 @@
 	
 	<form method="POST" action="./index.php">
 	
-	<label name="count">Number of words</label>
+	<label for="count">Number of words</label>
 	<input type="text" id ="count" name="count"/><br />
 	
-	<label name="uppercase">Uppercase first letter?</label>
+	<label for="uppercase">Uppercase first letter?</label>
 	<input type="checkbox" name="uppercase" value="checkbox" <?php echo ($uppercase) ? 'checked="checked"': '' ; ?> /><br />
 	
-	<label name="symbol">Add a symbol</label>
+	<label for="symbol">Add a symbol</label>
 	<input type="checkbox" name="symbol" value="checkbox" <?php echo ($symbol) ? 'checked="checked"': '' ; ?> /><br />
 
-	<label name="number">Add a number</label>
+	<label for="number">Add a number</label>
 	<input type="checkbox" name="number" value="checkbox" <?php echo ($number) ? 'checked="checked"': '' ; ?> /><br />	
 	
 	</p>
@@ -36,5 +36,4 @@
 			</a>
 			<br>
 	</p>
-	
 </div>
