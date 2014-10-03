@@ -33,5 +33,5 @@
 				<img class='comic' src='http://imgs.xkcd.com/comics/password_strength.png' alt='xkcd style passwords'>
 			</a>
 			<br>
-	</p>
+	    <p />
 </div>
