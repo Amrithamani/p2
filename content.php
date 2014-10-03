@@ -1,5 +1,3 @@
-
-
 <div class="container">
 	
 	<h1>xkcd Password Generator</h1>
@@ -14,13 +12,13 @@
 	<label for="count">Number of words</label>
 	<input type="text" id ="count" name="count"/><br />
 	
-	<label for="uppercase">Uppercase first letter?</label>
+	<label form="uppercase">Uppercase first letter?</label>
 	<input type="checkbox" name="uppercase" value="checkbox" <?php echo ($uppercase) ? 'checked="checked"': '' ; ?> /><br />
 	
-	<label for="symbol">Add a symbol</label>
+	<label form="symbol">Add a symbol</label>
 	<input type="checkbox" name="symbol" value="checkbox" <?php echo ($symbol) ? 'checked="checked"': '' ; ?> /><br />
 
-	<label for="number">Add a number</label>
+	<label form="number">Add a number</label>
 	<input type="checkbox" name="number" value="checkbox" <?php echo ($number) ? 'checked="checked"': '' ; ?> /><br />	
 	
 	</p>
