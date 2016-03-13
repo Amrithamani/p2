@@ -1,7 +1,7 @@
 # xkcd Password Generator
 
 ## Live URL
-<http://p2.amrithamani.me/>
+<http://p2.amrithamani.com/>
 
 ## Description
 A simple utility for generating [xkcd style passwords](http://xkcd.com/936/).
